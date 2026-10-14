@@ -1,0 +1,55 @@
+# ======================================================================================
+#  ArcadeGames - the server info book (opens when a player uses the book item).
+#  /arcade reload after editing.
+#
+#  Colour codes use &.  Placeholders: {player} {online} {arenas} (ready arenas) {playing} (players in games)
+#  Every entry of "pages" is one page. A page holds about 14 lines. Use "|" blocks for line breaks.
+# ======================================================================================
+
+title: "Server Info"
+author: "Server"
+
+pages:
+  - |-
+    &6&lWelcome, {player}!
+
+    &0There are &2{online} &0players online and &2{playing} &0are playing right now.
+
+    &0Use the &bnether star &0to join a game.
+  - |-
+    &6&lThe games
+
+    &0- &8Prop Hunt
+    &0- &8BlockParty
+    &0- &8TNT Run
+    &0- &8Party Games
+    &0- &8Mini Walls
+  - |-
+    &6&lSpectating
+
+    &0Use the &aclock &0to watch a game that is being played. You fly around in survival mode and can't be hurt.
+
+    &0Leave with the red bed.
+  - |-
+    &6&lCommands
+
+    &0/arcade &8- game menu
+    &0/arcade join &8- random game
+    &0/arcade leave &8- leave a game
+    &0/arcade spectate &8- watch
+  - |-
+    &6&lRules
+
+    &01. Be kind
+    &02. No cheating
+    &03. Have fun!
+
+    &8(Edit this book in plugins/ArcadeGames/info-book.yml)
+
+
+# Clickable links appended as a final page. Replace example URLs with your real server links.
+# Format: "Visible label|https://example.com"
+links:
+  - "Server Website|https://example.com"
+  - "Discord|https://discord.com/invite/your-invite"
+  - "Store|https://store.example.com"

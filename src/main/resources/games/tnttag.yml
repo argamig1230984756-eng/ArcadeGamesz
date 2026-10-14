@@ -1,0 +1,8 @@
+# TNT Tag settings
+enabled: true
+default-min-players: 2
+default-max-players: 16
+round-seconds: 180
+
+# Seconds a tagged player has before exploding.
+tag-fuse-seconds: 20
